@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf("Nhung so nguyen nho hon %d la: ", a);
+    for(int i=0; i<a;i++)
+        printf("%d ",i);
+
+
+  
+    return 0;
+}
