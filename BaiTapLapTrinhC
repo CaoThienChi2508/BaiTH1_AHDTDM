@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main(){
+    // Khai bao gia tri a, b, c, d 
+    int a, b, c, d;
+    printf("Nhap a: ");
+    scanf("%d",&a);
+    printf("Nhap b: ");
+    scanf("%d",&b);
+    printf("Nhap c: ");
+    scanf("%d",&c);
+    printf("Nhap d: ");
+    scanf("%d",&d);
+
+    // Thuc hien cac phep toan + - * / giua a va b
+    int cong = a + b;
+    int tru = a - b;
+    int nhan = a * b;
+    int chia = a / b;
+
+    //Thuc hien cac phep toan %
+    int chiaLayDu = c % d;
+    a++; //Tang a len 1 don vi
+    b--; // Giam b xuong 1 don vi
+
+    // Hien thi ket qua
+    printf("Cong = %d \n", cong);
+    printf("Tru = %d \n", tru);
+    printf("Nhan = %d \n", nhan);
+    printf("Chia = %d \n", chia);
+    printf("Chia lay phan du = %d \n", chiaLayDu);
+    printf("a++ = %d \n", a);
+    printf("b-- = %d \n", b);
+    return 0;
+}
